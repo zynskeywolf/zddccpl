@@ -11,9 +11,8 @@ Building:
 ```
 mkdir build
 cd build
-qmake
+qmake ..
 make
-sudo make install
 ```
 If your monitor supports DDC/CI but doesn't show up in the dropdown list, make sure that:
 - It's not disabled in the monitor's menu
