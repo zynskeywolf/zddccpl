@@ -1,4 +1,4 @@
-QT       += core gui
+QT += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -13,9 +13,10 @@ HEADERS += \
 	Widgets.h \
 	selectmonitor.h
 
-qnx: target.path = /tmp/$${TARGET}/bin
-else: unix:!android: target.path = /opt/$${TARGET}/bin
-!isEmpty(target.path): INSTALLS += target
+target.path = /usr/bin
+desktopentry.files = zddccpl.desktop
+desktopentry.path = /usr/share/applications
+INSTALLS += target desktopentry
 
 unix: CONFIG += link_pkgconfig
 unix: PKGCONFIG += ddcutil

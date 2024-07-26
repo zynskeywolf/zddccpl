@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
     QApplication app(argc, argv);
     QMainWindow *win = new QMainWindow();
     win->resize(480, 480);
-    win->setWindowTitle("Monitor settings");
+    win->setWindowTitle("DDC/CI Control Panel");
     QWidget *container = new QWidget(win);
     container->resize(480, 480);
     QVBoxLayout *l = new QVBoxLayout();
