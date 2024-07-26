@@ -1,8 +1,8 @@
 [Desktop Entry]
 Type=Application
 Name=zddccpl
-GenericName="DDC/CI Control Panel"
-Comment="Adjust picture settings on DDC/CI compatible monitors"
+GenericName=DDC/CI Control Panel
+Comment=Adjust picture settings on DDC/CI compatible monitors
 Icon=video-display
 TryExec=zddccpl
 Exec=zddccpl
